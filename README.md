@@ -55,9 +55,9 @@ This section contains a list of resources that I will use throughout the semeste
 
 Feel free to reach out to me if you have any questions, suggestions, or if you'd like to collaborate on a project. You can contact me through the following channels:
 
-- GitHub: [Your GitHub Profile](https://github.com/Heavenboi)
+- GitHub: [My GitHub Profile](https://github.com/Heavenboi)
 - Email: nigelzenda98@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/nigel-zenda-738416146)
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/nigel-zenda-738416146)
 
 Let's learn, code, and grow together!
 
