@@ -1,6 +1,16 @@
 #!/usr/bin/python3
-def uppercase(str):
-    for char in str:
+def uppercase(s):
+    result = ""
+    for char in s:
         if 'a' <= char <= 'z':
-            char = chr(ord(char) - ord('a') + ord('A'))
-        print(char, end="\n")
+            offset = ord('A') - ord('a')
+            result += "{:c}".format(ord(char) + offset)
+        else:
+            result += char
+
+    print(result)
+
+
+if __name__ == "__main__":
+    uppercase("best")
+    uppercase("Best School 98 Battery street")
