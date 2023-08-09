@@ -10,3 +10,7 @@ def fizzbuzz():
             print("Buzz ", end="")
         else:
             print("{} ".format(number), end="")
+
+if __name__ == "__main__":
+    fizzbuzz()
+    print("")
