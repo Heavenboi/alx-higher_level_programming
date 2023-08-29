@@ -9,4 +9,8 @@ for creating square objects with no specific functionality or data.
 
 
 class Square:
-    pass
+    '''
+    the square class
+    '''
+    def __init__(self):
+        pass
