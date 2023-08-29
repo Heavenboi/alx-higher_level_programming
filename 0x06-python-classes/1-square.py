@@ -3,9 +3,10 @@
 this function defines a square class
 """
 
+
 class Square:
     """
-    Square class represents a square shape.
+    represents a square shape.
     """
     def __init__(self, size):
         """
