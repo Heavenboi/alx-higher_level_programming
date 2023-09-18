@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 
-__all__ = ["base"]
+__all__ = ["base", "rectangle"]
