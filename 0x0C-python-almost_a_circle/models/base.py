@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """Defining a base class"""
 import json
 import turtle
 import csv
+=======
+"""defining a base class"""
+>>>>>>> a6e085ff8cd268d820480b041582588dcee48650
 
 
 class Base:
