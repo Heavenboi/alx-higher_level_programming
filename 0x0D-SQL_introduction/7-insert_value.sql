@@ -3,5 +3,4 @@
 INSERT INTO first_table
 (id, name)
 VALUES
-("id=89"),
-("name=Best Scholl");
+(89, 'Best School');
