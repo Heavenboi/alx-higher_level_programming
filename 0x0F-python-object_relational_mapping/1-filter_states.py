@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 script that lists all states that start with N from database hbtn_0e_0_usa
 """
