@@ -15,10 +15,10 @@ if __name__ == "__main__":
 
     cursor = conn.cursor()
     search = sys.argv[4]
-    query = "SELECT * FROM `states` WHERE BINARY `name` = %s ORDER BY id ASC"  # Corrected assignment
+    query = "SELECT * FROM `states` WHERE BINARY `name` = %s ORDER BY id ASC"
     cursor.execute(query, (search,))
     states = cursor.fetchall()
     for state in states:
-        print(state)  # Removed unnecessary conditional check
+        print(state)
     cursor.close()
     conn.close()
