@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-a script that takes in an argument and displays all values in the states
+Write a script that takes in an argument and displays all values in the states
 where name matches the argument but safe from MySQL injections.
 """
 import MySQLdb
@@ -15,12 +15,10 @@ if __name__ == "__main__":
 
     cursor = conn.cursor()
     search = sys.argv[4]
-    query = """SELECT * FROM states WHERE name = '{:s}' ORDER BY id ASC""".format(
-        search)
-    cursor.execute(query)
+    query = "SELECT * FROM `states` WHERE BINARY `name` = %s ORDER BY id ASC"  # Corrected assignment
+    cursor.execute(query, (search,))
     states = cursor.fetchall()
     for state in states:
-        if state[1] == search:
-            print(state)
+        print(state)  # Removed unnecessary conditional check
     cursor.close()
     conn.close()
